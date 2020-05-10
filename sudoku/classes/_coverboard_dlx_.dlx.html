@@ -93,8 +93,8 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_coverboard_dlx_.dlx.html#answer" class="tsd-kind-icon">answer</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_coverboard_dlx_.dlx.html#boardsize" class="tsd-kind-icon">board<wbr>Size</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_coverboard_dlx_.dlx.html#header" class="tsd-kind-icon">header</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_coverboard_dlx_.dlx.html#maxsolutions" class="tsd-kind-icon">max<wbr>Solutions</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_coverboard_dlx_.dlx.html#results" class="tsd-kind-icon">results</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_coverboard_dlx_.dlx.html#isdone" class="tsd-kind-icon">is<wbr>Done</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_coverboard_dlx_.dlx.html#resultcallback" class="tsd-kind-icon">result<wbr>Callback</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -117,13 +117,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new DLX<span class="tsd-signature-symbol">(</span>cover<span class="tsd-signature-symbol">: </span><a href="../modules/_coverboard_cover_board_.html#coverboard" class="tsd-signature-type">CoverBoard</a>, boardSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, maxSolutions<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_coverboard_dlx_.dlx.html" class="tsd-signature-type">DLX</a></li>
+						<li class="tsd-signature tsd-kind-icon">new DLX<span class="tsd-signature-symbol">(</span>cover<span class="tsd-signature-symbol">: </span><a href="../modules/_coverboard_cover_board_.html#coverboard" class="tsd-signature-type">CoverBoard</a>, boardSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_coverboard_dlx_.dlx.html" class="tsd-signature-type">DLX</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L13">coverboard/dlx.ts:13</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L14">coverboard/dlx.ts:14</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -133,9 +133,6 @@
 								</li>
 								<li>
 									<h5>boardSize: <span class="tsd-signature-type">number</span></h5>
-								</li>
-								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> maxSolutions: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 1</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_coverboard_dlx_.dlx.html" class="tsd-signature-type">DLX</a></h4>
@@ -151,7 +148,7 @@
 					<div class="tsd-signature tsd-kind-icon">answer<span class="tsd-signature-symbol">:</span> <a href="_coverboard_dancing_node_.dancingnode.html" class="tsd-signature-type">DancingNode</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L12">coverboard/dlx.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L12">coverboard/dlx.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -161,7 +158,7 @@
 					<div class="tsd-signature tsd-kind-icon">board<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L15">coverboard/dlx.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L15">coverboard/dlx.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -171,27 +168,27 @@
 					<div class="tsd-signature tsd-kind-icon">header<span class="tsd-signature-symbol">:</span> <a href="_coverboard_dancing_node_.columnnode.html" class="tsd-signature-type">ColumnNode</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L11">coverboard/dlx.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L11">coverboard/dlx.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="maxsolutions" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> max<wbr>Solutions</h3>
-					<div class="tsd-signature tsd-kind-icon">max<wbr>Solutions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="isdone" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> is<wbr>Done</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Done<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L15">coverboard/dlx.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L14">coverboard/dlx.ts:14</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="results" class="tsd-anchor"></a>
-					<h3>results</h3>
-					<div class="tsd-signature tsd-kind-icon">results<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="resultcallback" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> result<wbr>Callback</h3>
+					<div class="tsd-signature tsd-kind-icon">result<wbr>Callback<span class="tsd-signature-symbol">:</span> <a href="../modules/_coverboard_dlx_.html#resultcallback" class="tsd-signature-type">ResultCallback</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L13">coverboard/dlx.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L13">coverboard/dlx.ts:13</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -208,7 +205,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L19">coverboard/dlx.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L19">coverboard/dlx.ts:19</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -231,7 +228,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L70">coverboard/dlx.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L70">coverboard/dlx.ts:70</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -254,7 +251,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L74">coverboard/dlx.ts:74</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L74">coverboard/dlx.ts:74</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -271,16 +268,22 @@
 					<a name="runsolver" class="tsd-anchor"></a>
 					<h3>run<wbr>Solver</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">run<wbr>Solver<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">run<wbr>Solver<span class="tsd-signature-symbol">(</span>cb<span class="tsd-signature-symbol">: </span><a href="../modules/_coverboard_dlx_.html#resultcallback" class="tsd-signature-type">ResultCallback</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L125">coverboard/dlx.ts:125</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L125">coverboard/dlx.ts:125</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>cb: <a href="../modules/_coverboard_dlx_.html#resultcallback" class="tsd-signature-type">ResultCallback</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -294,7 +297,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L95">coverboard/dlx.ts:95</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L95">coverboard/dlx.ts:95</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -317,7 +320,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/10c23af/packages/sudoku/src/coverboard/dlx.ts#L57">coverboard/dlx.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/spielhalle/spielhalle/blob/d3a3b62/packages/sudoku/src/coverboard/dlx.ts#L57">coverboard/dlx.ts:57</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="_coverboard_dancing_node_.columnnode.html" class="tsd-signature-type">ColumnNode</a></h4>
@@ -428,11 +431,11 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 								<a href="_coverboard_dlx_.dlx.html#header" class="tsd-kind-icon">header</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_coverboard_dlx_.dlx.html#maxsolutions" class="tsd-kind-icon">max<wbr>Solutions</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_coverboard_dlx_.dlx.html#isdone" class="tsd-kind-icon">is<wbr>Done</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_coverboard_dlx_.dlx.html#results" class="tsd-kind-icon">results</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_coverboard_dlx_.dlx.html#resultcallback" class="tsd-kind-icon">result<wbr>Callback</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="_coverboard_dlx_.dlx.html#createdlxlist" class="tsd-kind-icon">createDLXList</a>
@@ -456,6 +459,9 @@
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/_coverboard_dlx_.html#resultcallback" class="tsd-kind-icon">Result<wbr>Callback</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
